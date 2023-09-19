@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="98" y="-27"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Pod View Controller-->
         <scene sceneID="tpx-KM-riu">
             <objects>
-                <viewController id="vga-t7-gjf" sceneMemberID="viewController">
+                <viewController id="vga-t7-gjf" customClass="HomePodViewController" customModule="hello_world" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Oz-Kv-Yak">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -93,10 +93,13 @@
                                                     <constraint firstAttribute="height" constant="50" id="Ddj-Nc-0aL"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Explore">
+                                                <buttonConfiguration key="configuration" style="filled" title="White">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onBtnWhite:" destination="vga-t7-gjf" eventType="touchUpInside" id="ZC4-Kv-MD7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcT-yw-rxv">
                                                 <rect key="frame" x="186" y="0.0" width="167" height="50"/>
@@ -104,10 +107,13 @@
                                                     <constraint firstAttribute="height" constant="50" id="oXD-jK-KJY"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Explore">
-                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Black">
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onBtnBlack:" destination="vga-t7-gjf" eventType="touchUpInside" id="Fo3-aV-P5H"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -142,6 +148,9 @@
                             <constraint firstItem="TDl-a4-J6c" firstAttribute="leading" secondItem="6rJ-FT-YOQ" secondAttribute="leading" id="nBL-CH-FuC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="homePodImg" destination="zjQ-Ab-w0D" id="ici-F8-Z7F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xhu-Di-VH2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

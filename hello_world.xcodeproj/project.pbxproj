@@ -13,6 +13,7 @@
 		7A89C2352AB840420009E609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A89C2332AB840420009E609 /* Main.storyboard */; };
 		7A89C2372AB840440009E609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A89C2362AB840440009E609 /* Assets.xcassets */; };
 		7A89C23A2AB840440009E609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A89C2382AB840440009E609 /* LaunchScreen.storyboard */; };
+		7AA6434F2AB9713E0089E26D /* HomePodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6434E2AB9713E0089E26D /* HomePodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7A89C2362AB840440009E609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A89C2392AB840440009E609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A89C23B2AB840440009E609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA6434E2AB9713E0089E26D /* HomePodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7A89C2362AB840440009E609 /* Assets.xcassets */,
 				7A89C2382AB840440009E609 /* LaunchScreen.storyboard */,
 				7A89C23B2AB840440009E609 /* Info.plist */,
+				7AA6434E2AB9713E0089E26D /* HomePodViewController.swift */,
 			);
 			path = hello_world;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A89C2322AB840420009E609 /* ViewController.swift in Sources */,
+				7AA6434F2AB9713E0089E26D /* HomePodViewController.swift in Sources */,
 				7A89C22E2AB840420009E609 /* AppDelegate.swift in Sources */,
 				7A89C2302AB840420009E609 /* SceneDelegate.swift in Sources */,
 			);
